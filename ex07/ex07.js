@@ -3,17 +3,7 @@ function gerar() {
     const numero2 = parseInt(document.getElementById("numero2").value);
     const linha = document.getElementById("linha");
 
-    // console.log(numero);
-
     for (let i = 0; i <= 5; ++i) {
-
-        // if (i = 0) {
-        //     numeros = numero1 + numero2;
-        //     linha.innerHTML += ` ${numeros} `;
-        //     linha.innerHTML += "\n";
-        // } else {
-        //     tabela.innerHTML += ` ${numeros} `;
-        // }
 
         switch (i) {
             case 0:
